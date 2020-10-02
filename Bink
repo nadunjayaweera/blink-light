@@ -1,0 +1,1031 @@
+const int led1 = 1;
+const int led2 = 2;
+const int led3 = 3;
+const int led4 = 4;
+void setup() {
+  // put your setup code here, to run once:
+pinMode(led1,INPUT);
+pinMode(led2, INPUT);
+pinMode(led3,INPUT);
+pinMode(led4,INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  //patern 1
+  for(int i=0; i<4; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(1000);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(1000);
+  }
+   for(int i=0; i<10; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+  }
+   for(int i=0; i<20; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+  }
+   for(int i=0; i<80; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(100);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+  }
+   for(int i=0; i<160; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(50);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(50);
+  }
+  digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(1000);
+//patern 2
+for(int i=0; i<4; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(700);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(700);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(700);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+}
+  digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+for(int i=0; i<20; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(400);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(400);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(400);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+for(int i=0; i<60; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(150);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(150);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(150);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150);
+for(int i=0; i<100; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+// patern 3
+for(int i=0; i<10; i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(700);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(700);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(700);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+}
+  digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+for(int i=0; i<20; i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(400);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(400);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(400);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+for(int i=0; i<60; i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(150);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(150);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(150);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(150);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(150);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(150);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(150);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150);
+for(int i=0; i<100; i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(80);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(80);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(80);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(80);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+// patern 4
+for(int i=0; i<10; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(800);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(800);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500); 
+}
+for(int i=0; i<10; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(400);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(400);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500); 
+}
+for(int i=0; i<60; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(150);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(150);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(150); 
+}
+for(int i=0; i<100; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500); 
+}
+for(int i=0; i<10; i++){
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(600);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(600);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500); 
+for (int j=0; j<100;j++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+for (int k=0;k<7;k++){
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+}
+}
+}
+//patern 5
+for (int i=0;i<50;i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(200);
+}
+for (int i=0;i<50;i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(200);
+}
+for (int i=0;i<50;i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(200);
+}
+for (int i=0;i<50;i++){
+  digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(200);
+}
+  for(int i=0; i<8; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(1000);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(1000);
+  }
+   for(int i=0; i<10; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+  }
+   for(int i=0; i<20; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+  }
+   for(int i=0; i<100; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(100);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+  }
+   for(int i=0; i<170; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(50);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(50);
+  }
+  // patern 6
+for(int i=0; i<14; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(500);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(500);
+}
+for(int i=0; i<40; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(200);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(200);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(200);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(200);
+}
+for(int i=0; i<100; i++){
+  digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+}
+// patern 7
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+
+for(int i=0; i<15; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(500);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(500);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+}
+for(int i=0; i<40; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(200);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(200);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(200);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(200);
+}
+for(int i=0; i<200; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(80);
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(80);
+// patern 8
+for(int i=0; i<80; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<80; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<80; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(100);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+// patern 9
+for(int i=0; i<50; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(100);
+}
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(500);
+// patern 10
+  for(int i=0; i<4; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(1000);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(1000);
+  }
+   for(int i=0; i<10; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(700);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(700);
+  }
+   for(int i=0; i<20; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(400);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(400);
+  }
+   for(int i=0; i<80; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(100);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+  }
+   for(int i=0; i<160; i++){
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(50);
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(50);
+  }
+  digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(1000);
+// patern 11
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+}
+for(int i=0; i<50; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(100);
+}
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(800);
+// patern 12
+
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(300);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(300);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(300);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(300);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(600);
+// patern 13
+digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(300);
+}
+digitalWrite(led1,HIGH);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,HIGH);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(300);
+}
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(300);
+}
+digitalWrite(led1,HIGH);
+digitalWrite(led2,HIGH);
+digitalWrite(led3,HIGH);
+digitalWrite(led4,LOW);
+delay(300);
+for(int i=0; i<3; i++){
+ digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,HIGH);
+delay(300);
+}
+digitalWrite(led1,LOW);
+digitalWrite(led2,LOW);
+digitalWrite(led3,LOW);
+digitalWrite(led4,LOW);
+delay(600);
+
+}
